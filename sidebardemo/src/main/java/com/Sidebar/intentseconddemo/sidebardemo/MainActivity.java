@@ -183,12 +183,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     public void addData() {
         Person person1 = new Person();
-        person1.setName("Long");
+        person1.setName("Long2");
         getInitialLetter(person1.getName(), person1);
         mPersonList.add(person1);
 
         Person person2 = new Person();
-        person2.setName("Wang");
+        person2.setName("Wang2");
         getInitialLetter(person2.getName(), person2);
         mPersonList.add(person2);
 
