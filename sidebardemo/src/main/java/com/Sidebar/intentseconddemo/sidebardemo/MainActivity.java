@@ -243,6 +243,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         getInitialLetter(person13.getName(), person13);
         mPersonList.add(person13);
 
+        Person person14 = new Person();
+        person14.setName("美国2");
+        getInitialLetter(person14.getName(), person14);
+        mPersonList.add(person14);
         for (int i = 10; i < 20; i++) {
             Person persona = new Person();
             persona.setName("立");
